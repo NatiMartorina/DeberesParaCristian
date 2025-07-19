@@ -8,7 +8,7 @@ Las bases de datos son repositorios donde almacenamos información estructurada.
 
 ```sql
 CREATE TABLE nombreTabla (
-    Campo_tabla INT NOT NULL PRIMARY KEY, 
+    Campo_tabla INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
     Campo_tabla2 VARCHAR(20)
 );
 ```
